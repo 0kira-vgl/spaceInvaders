@@ -1,9 +1,9 @@
 class Projectile {
-  constructor(position, velocity) {
+  constructor(position, speed) {
     this.position = position;
     this.width = 2;
     this.height = 20;
-    this.velocity = velocity;
+    this.speed = speed;
   }
 
   draw(ctx) {
@@ -12,7 +12,7 @@ class Projectile {
   }
 
   update() {
-    this.position.y += this.velocity;
+    this.position.y += this.speed;
   }
 }
 

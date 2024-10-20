@@ -4,10 +4,17 @@ const PATH_ENGINE_SPRITES = "./src/assets/images/engine_sprites.png";
 const PATH_INVADER_IMAGE = "./src/assets/images/invader.png";
 const INITIAL_FRAMES = 8;
 
+const GameState = {
+  START: "start",
+  PLAYING: "playing",
+  GAME_OVER: "gameOver",
+};
+
 export {
   PATH_SPACESHIP_IMAGE,
   PATH_ENGINE_IMAGE,
   PATH_ENGINE_SPRITES,
   PATH_INVADER_IMAGE,
   INITIAL_FRAMES,
+  GameState,
 };
